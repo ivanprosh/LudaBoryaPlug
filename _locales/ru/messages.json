@@ -1,0 +1,30 @@
+{
+    "appDesc": {
+        "description": "The description of the application, displayed in the web store.",
+        "message": "Расширение заменяет все картинки на страницах на фотографии"
+    },
+    "appName": {
+        "description": "The title of the application, displayed in the web store.",
+        "message": "LudaBorya"
+    },
+    "contextMenuInactivate": {
+        "description": "The option in context menu to inactivate the extension",
+        "message": "Отключить LudaBorya"
+    },
+    "optionsHeader": {
+        "description": "The options page title",
+        "message": "Настройки LudaBorya"
+    },
+    "optionsPageActivate": {
+        "description": "Text shown next to On/Off-button",
+        "message": "LudaBorya"
+    },
+    "optionsPageContextLink": {
+        "description": "Text shown next to On/Off-button",
+        "message": "Показывать \"Отключить LudaBorya\" по правому клику мыши"
+    },
+	"optionsPageLudaOn": {
+    "description": "Text shown next to On/Off-button",
+    "message": "Люда за компом?"
+  }
+}

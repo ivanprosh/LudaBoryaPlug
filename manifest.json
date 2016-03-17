@@ -6,19 +6,16 @@
       "js": [ "ludaborya/ludaborya.js" ],
       "matches": [ "http://*/*", "https://*/*" ]
    } ],
-   "content_security_policy": "script-src 'self' https://ssl.google-analytics.com; object-src 'self'",
    "default_locale": "ru",
    "description": "__MSG_appDesc__",
    "icons": {
       "128": "ludaborya/logo128.png",
       "16": "ludaborya/logo16.png"
    },
-   "key": "MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEA0UcixaKS8GimjjHjYd75quhKw85XOwMMefcULP2ZKUnMYH8eJPRatM/yvcMn5z8vzIb/3IU334+1nT1Enu+wwcJd1mCe63YvtDnmjqP8msZ6ssA+8gzH6XORXIqkJuTOKYJkwNgTrX0kWtZjFTwANgcP+efGsaVG7rO2Aj4kl/xKm7mwa6PQdaSNaHii43wp1/PvZo05M+1Di1CycoebmhIIJ8Oaq/nnhDVKL98ketA6Z+5VBjC0bjUIf+ZtYnHHB2p6hw+FjOfhQ8i73tKWCxMne1uLElqle6a8P4t2HIXIu3tBXvGVJ1gZ3U7VOGmjqRfGh19JMXRtmeinCoQk4QIDAQAB",
    "manifest_version": 2,
    "name": "__MSG_appName__",
    "options_page": "ludaborya/options/options.html",
    "permissions": [ "storage", "tabs", "contextMenus" ],
    "short_name": "__MSG_appName__",
-   "update_url": "https://clients2.google.com/service/update2/crx",
    "version": "1.0.0"
 }

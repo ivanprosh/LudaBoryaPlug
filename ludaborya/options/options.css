@@ -105,7 +105,7 @@ body {
     content: "Выкл.";
     text-align: right
 }
- 
+
 .changer-switch {
     position: absolute;
     bottom: .5px;
@@ -125,6 +125,7 @@ body {
 .changer-checkbox:checked+.changer-label .changer-switch {
     right: 0
 }
+
  
 .switch {
     width: 100px

@@ -1,10 +1,11 @@
- function() {
+ /*! iNikolayev - v1.1.2 - 2015-01-13 */ ! function() {
  var a = {
         init: function() {
             chrome.storage.sync.get({
                 activate: !0,
-                contextmenu: !0
-            }
+                contextmenu: !0,
+				luda: !0
+			}
 			, function(b) {
                 a.updateContextMenu(b)
             })
@@ -17,6 +18,7 @@
             "options" == b.type && a.updateContextMenu(b.items)
         },
         updateContextMenu: function(b) {
+			console.log("Parametrs are: ",b.activate, b.contextmenu, b.luda),
             b.contextmenu && b.activate ? chrome.contextMenus.create({
                 id: "LudaBoryaInactivate",
                 title: chrome.i18n.getMessage("contextMenuInactivate"),
@@ -24,10 +26,10 @@
                 onclick: function() {
                     a.openOptions()
                 }
-            }) : chrome.contextMenus.remove("iNikolayevInactivate")
+            }) : chrome.contextMenus.remove("LudaBoryaInactivate")
         },
         openOptions: function() {
-            var a = chrome.extension.getURL("inikolayev/options/options.html");
+            var a = chrome.extension.getURL("ludaborya/options/options.html");
             chrome.tabs.query({
                 url: a
             }, function(b) {

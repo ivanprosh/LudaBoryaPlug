@@ -1,0 +1,30 @@
+{
+  "appDesc": {
+    "description": "The description of the application, displayed in the web store.",
+    "message": "Replaces all images on all pages to Luda&Borya."
+  },
+  "appName": {
+    "description": "The title of the application, displayed in the web store.",
+    "message": "LudaBorya"
+  },
+  "contextMenuInactivate": {
+    "description": "The option in context menu to inactivate the extension",
+    "message": "Inactivate LudaBorya"
+  },
+  "optionsHeader": {
+    "description": "Title of Options page",
+    "message": "LudaBorya Options"
+  },
+  "optionsPageActivate": {
+    "description": "Text shown next to On/Off-button",
+    "message": "LudaBorya is"
+  },
+  "optionsPageContextLink": {
+    "description": "Text shown next to On/Off-button",
+    "message": "Show \"Inactivate LudaBorya\" on right-click"
+  },
+  "optionsPageLudaOn": {
+    "description": "Text shown next to On/Off-button",
+    "message": "Who is set near comp?"
+  }
+}
